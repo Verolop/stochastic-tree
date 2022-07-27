@@ -13,7 +13,7 @@ void mousePressed() {
 }
 
 void newTree() {
-  background(255);
+  background(255,105, 180);
   fill(0);
   text("Click to generate a new treww", 10, height-10);
 
@@ -25,8 +25,6 @@ void newTree() {
   branch(120);
   popMatrix();
 }
-
-
 
 void branch(float h) {
   // thickness of the branch is mapped to its length
